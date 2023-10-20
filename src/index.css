@@ -1,0 +1,312 @@
+#fall{
+  color: orange;
+  font-weight: bold;
+}
+#nav{
+  background-color: orange;
+  color: white;
+}
+#image{
+  width: 320px;
+  height: 320px;
+}
+#productCount{
+  cursor: pointer;
+}
+#per{
+  font-weight: bold;
+  font-size: 20px;
+}
+#cent{
+  background-color: orange;
+  border-radius: 100%;
+  font-weight: bold;
+  padding: 2px;
+  margin-left: 20px;
+  font-size: 10px;
+}
+#cartItem{
+  color: white;
+  font-weight: bold;
+}
+
+#comp{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#imager{
+  width: 200px;
+  height: 150px;
+}
+
+#next{
+  cursor: pointer;
+  border-radius: 100%;
+  height: 50px;
+  width: 50px;
+  margin-left: -30px;
+  background-color: wheat;
+  border: 0px solid orange;
+ 
+}
+#previous{
+  cursor: pointer;
+  border-radius: 100%;
+  height: 50px;
+  width: 50px;
+  margin-left: -360px;
+  background-color: wheat;
+  border: 0px solid orange;
+}
+
+.price{
+ margin-left: 90px;
+}
+#delete{
+  color: orange;
+  border: 2px white;
+ 
+}
+
+.plusminus{
+
+  margin-left: 490px;
+}
+.zero{
+  font-size: 30px;
+}
+.text{
+  margin-left: 15px;
+  font-weight: bold;
+}
+#button{
+  background-color: orange;
+  cursor: pointer;
+  margin-left: -100px;
+}
+#con{
+  margin-top: -150px;
+}
+#footer{
+  margin-top: 0px;
+  background-color: orange;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: white;
+}
+
+#foot{
+  margin-top: 190px;
+  background-color: orange;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: white;
+}
+.zero{
+  color: white;
+   top: 70px;
+   background-color: white;
+   color: orange;
+  position: absolute;
+  left: 75%;
+  /* width: 50%; */
+  
+}
+#increase, #decrease{
+  cursor: pointer;
+  background-color: orange;
+  padding: 5px;
+}
+.sectionA{
+  background-color:rgb(241,241,242);
+  height: 87vh;
+}
+
+.subCart{
+  margin-left: 50px;
+}
+.subCart1{
+  margin-left: 50px;
+}
+.pay{
+  padding: 50px;
+}
+.checkout{
+background-color: orange;
+color: white;
+cursor: pointer;
+margin: 10px;
+padding: 10px;
+
+}
+
+::placeholder{
+  font-weight: bold;
+  
+}
+
+#produc{
+  font-size: 20px;
+}
+
+@media (max-width: 1000px) {
+  body{
+    margin: 0;
+    overflow-x: hidden;
+  }
+  #foot{
+    margin-top: 50px;
+    background-color: orange;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+  }
+  #image{
+    width: 100%;
+    height: 320px;
+  }
+  #cent{
+    background-color: orange;
+    border-radius: 100%;
+    font-weight: bold;
+    padding: 2px;
+    margin-left: 0px;
+    font-size: 10px;
+  }
+ 
+  #pro{
+    display: none;
+  }
+  #comp{
+    margin-top: -50px;
+    margin-left: 0px;  
+  }
+  #next{
+    cursor: pointer;
+    border-radius: 100%;
+    height: 50px;
+    width: 50px;
+    background-color: wheat;
+    border: 0px solid orange;
+    margin-top: -320px;
+    margin-left: 300px;
+   
+  }
+  #previous{
+    cursor: pointer;
+    border-radius: 100%;
+    height: 50px;
+    margin-top: -320px;
+    width: 50px;
+    margin-left: -350px;
+    background-color: wheat;
+    border: 0px solid orange;
+  }
+  
+  #con{
+    margin-top: 0px;
+  }
+  
+  .air{
+    margin-left: 0px;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  #button{
+    background-color: orange;
+    cursor: pointer;
+    margin-left: 0px;
+  }
+
+  #footer{
+    margin-top: -90px;
+    background-color: orange;
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+  }
+  #card{
+   margin-left: 10px;
+    width: 90%;
+    padding-left: 10px;
+   padding-right: 10px;
+   margin-top: 30px;
+  }
+  #produc{
+    margin-left: -40px;
+    font-size: 15px;
+   
+  }
+
+  .price{
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: bold;
+   }
+
+  .plusminus{
+    margin-left: 0px;
+  }
+  .zero{
+    color: white;
+     margin-top: 400px;
+     background-color: white;
+     color: orange;
+    /* position: absolute; */
+    /* left: 0%; */
+    margin-left: -250px;
+   
+    width: 80%;
+    
+  }
+  /* #card{
+    width: 100%;
+  } */
+  #increase{
+    cursor: pointer;
+    background-color: orange;
+    padding: 5px;
+    /* margin-left: 200px; */
+  }
+  #decrease{
+    cursor: pointer;
+    background-color: orange;
+    padding: 5px;
+    margin-left: 100px;
+  }
+  .sectionA{
+    background-color:rgb(241,241,242);
+    height: 100vh;
+    width: 100%;
+  }
+  
+  .pay{
+    margin-left: 0px;
+  }
+  .checkout{
+  background-color: orange;
+  color: white;
+  cursor: pointer;
+  /* margin: 10px; */
+  padding: 10px;
+  
+  }
+  #imager{
+    width: 100%;
+    height: 150px;
+  }
+  .sectionA{
+    background-color:rgb(241,241,242);
+    height: 100vh;
+    width: 98%;
+  }
+  #cart{
+    margin-left: 200px;
+    margin-top: -40px;
+  }
+ 
+}
