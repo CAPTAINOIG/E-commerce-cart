@@ -14,24 +14,10 @@ import { CiSquarePlus } from 'react-icons/ci'
 import { GrFormNext, GrFormPrevious, GrAdd } from 'react-icons/gr'
 import Footer from './Footer'
 import { useNavigate } from 'react-router-dom'
-
-
-// import { AppContext } from '../App'
 import { useDispatch, useSelector } from 'react-redux'
 import FooterA from './FooterA'
-// import { increment, decrement } from '../redux/counterSlice'
 
 
-
-// <div className='airplus rounded'>
-// <span className='air'>
-//     <AiOutlineMinus onClick={()=>dispatch(decrement()) } />
-// </span>
-// <span className='text'></span>
-// <span className='plus'>
-//     <GrAdd onClick={()=>dispatch(increment()) } />
-// </span>
-// </div>
 const Commerce = () => {
     // const {num, setnum} = useContext(AppContext)
     const Navigate = useNavigate()
@@ -45,7 +31,7 @@ const Commerce = () => {
     let myCounter = useSelector((state) => state.counterReducer.count)
     // console.log(myCounter) 
 
-    let price = useSelector((state)=> state.counterReducer.price)
+    let price = useSelector((state) => state.counterReducer.price)
 
 
     let product = []
@@ -58,9 +44,9 @@ const Commerce = () => {
             productTitle: 'Fall Limited Edition Sneakers',
             price: 50000,
             quantity: 1,
-            image3: product1,      
+            image3: product1,
         }
-       
+
         product.push(carty)
         // console.log(product);
         localStorage.setItem("cart", JSON.stringify(product))
@@ -123,19 +109,15 @@ const Commerce = () => {
                                 <a className="nav-link text-light" href="#">Contact</a>
                             </li>
                         </ul>
-
-                        
-                        </div>
-                        
-                        </div>
-                        <div id='cart'>
-                        <span id='cartItem'>{cartItem} </span> <img onClick={productCount} real={real} id='productCount' src={cart} alt="" /> <span id='cartItem'></span>
-                        <img className='ms-4' src={avatar} alt="" width={30} />
-                        </div>
-                        </nav>
+                    </div>
+                </div>
+                <div id='cart'>
+                    <span id='cartItem'>{cartItem} </span> <img onClick={productCount} real={real} id='productCount' src={cart} alt="" /> <span id='cartItem'></span>
+                    <img className='ms-4' src={avatar} alt="" width={30} />
+                </div>
+            </nav>
 
             <div className="container">
-
                 <div className="row">
                     <div className="col-lg-5 my-5">
                         <img id='image' className='rounded' src={images[current]} alt="productImage" />
@@ -154,24 +136,16 @@ const Commerce = () => {
                         <p className='mt-5'>The low profile sneakers are your perfect casual wear <br /> companion. Featuring a durable rubbber outer sole, they'll <br /> withstand everything the weather can offer.</p>
                         <span id='per'>50,000</span> <span id='cent'>20%</span>
                         <h5 className='text-decoration-line-through'>#60,000</h5>
-
-
                     </div>
-
                 </div>
-
             </div>
             <div id='con' className="container">
                 <div className='row'>
                     <div className="col-lg-5"></div>
-
                     <div className="col-lg-6">
                         <div className="row">
                             <div className="col-lg">
-                              
                             </div>
-
-
                             <div className="col-lg-10">
                                 <div id='button' className='rounded w-100'>
                                     <div className='mx-auto text-center'>
@@ -184,8 +158,7 @@ const Commerce = () => {
                 </div>
             </div>
 
-
-            <FooterA/>
+            <FooterA />
         </>
     )
 }

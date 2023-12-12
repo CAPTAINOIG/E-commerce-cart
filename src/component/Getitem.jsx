@@ -21,12 +21,7 @@ const Getitem = () => {
     const price = useSelector((state) => state.counterReducer.price);
     const newPrice = myCounter * price;
 
-    // Update cart items state when 'newProduct' changes
-    useEffect(() => {
-        setCartItems(newProduct || []);
-    }, [newProduct]);
-
-    // Function to delete an item from the cart
+   
     const deleteItem = (index) => {
         const updatedCart = [...cartItems];
         updatedCart.splice(index, 1);
