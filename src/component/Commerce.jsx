@@ -46,12 +46,7 @@ const Commerce = () => {
     // console.log(myCounter) 
 
     let price = useSelector((state)=> state.counterReducer.price)
-    // let quantity = useSelector((state)=> state.counterReducer.quantity)/
 
-   
-    // let total = myCounter * price
-    // console.log(total);
-    // localStorage.setItem("totalPrice", JSON.stringify(total))
 
     let product = []
     const productCart = () => {
