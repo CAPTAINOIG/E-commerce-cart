@@ -40,7 +40,7 @@ const Getitem = () => {
            <Navbar/>
             <section className='sectionA' border>
                 
-                    {newProduct.length > 0 ? 
+                    {newProduct  ? 
                         newProduct.map((item, index) => (
                             <div key={index} className="col-sm-6 mb-3 mb-sm-0">
 
